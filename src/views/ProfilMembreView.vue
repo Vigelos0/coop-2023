@@ -21,6 +21,6 @@ onMounted(() => {
         <h1 class="title">Informations relative au compte selectionné :</h1>
         <p><b>Nom :</b> {{ membre.fullname }}</p>
         <p><b>Adresse e-mail :</b> {{ membre.email }}</p>
-        <p><b>Date de création :</b> {{ membre.created_at.toLocaleDateString("fr") }}</p>
+        <p><b>Date de création :</b> {{ membre.created_at }}</p>
     </div>
 </template>
