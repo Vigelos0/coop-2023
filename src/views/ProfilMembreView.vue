@@ -12,7 +12,9 @@ let membre = ref({});
 
 onMounted(() => {
      const id = router.currentRoute.value.params.id;
+     console.log(id);
      membre.value = membresStore.getMembre(id);
+     console.log(membre.value);
 })
 </script>
 
