@@ -5,7 +5,7 @@ const session = inject('session');
 
 let member = reactive({
     email: 'netlify@gmail.com',
-    password: ''
+    password: 'netlify'
 })
 
 function validationFormulaire() {
