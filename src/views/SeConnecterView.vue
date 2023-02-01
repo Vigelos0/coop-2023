@@ -4,7 +4,7 @@ const router = inject('router');
 const session = inject('session');
 
 let member = reactive({
-    email: '',
+    email: 'netlify@gmail.com',
     password: ''
 })
 

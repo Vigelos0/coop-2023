@@ -1,6 +1,6 @@
 const api = (() => {
     const BASE = 'https://allweb.fun/coop/api/';
-    const API_KEY = '603702b232ac27e16b388c6a151c8eff3cbea445'
+    const API_KEY = '06dba106069092580c17bd8665f87efb2a22467b'
     function query(method, route, params) {
         const body = params?.body;
 
