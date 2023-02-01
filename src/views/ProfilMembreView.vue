@@ -8,12 +8,12 @@ import { ref } from 'vue';
 const membresStore = useMembresStore();
 const router = useRouter();
 
-let membre = ref({});
+// let membre = ref({});
 
-onMounted(() => {
-    const id = router.currentRoute.value.params.id;
-    membre.value = membresStore.getMembre(id);
-})
+// onMounted(() => {
+//     const id = router.currentRoute.value.params.id;
+//     membre.value = membresStore.getMembre(id);
+// })
 </script>
 
 <template>
