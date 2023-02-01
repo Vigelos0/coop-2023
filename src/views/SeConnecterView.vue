@@ -25,9 +25,9 @@ function validationFormulaire() {
     <div class="columns">
         <div class="column is-4 is-offset-4">
 
-            <h1 class="title">Se connecter</h1>
-
             <form class="box" @submit.prevent="validationFormulaire">
+
+            <h1 class="title">SE CONNECTER</h1>
 
                 <div class="field">
                     <label class="label">E-Mail</label>

@@ -30,7 +30,7 @@ function validationFormulaire() {
   <div class="columns is-centered">
     <div class="column is-6">
       <div class="box">
-        <h1 class="title has-text-centered">Créer un compte</h1>
+        <h1 class="title has-text-centered">CRÉER UN COMPTE</h1>
         <form @submit.prevent="validationFormulaire">
           <div class="field">
             <label class="label">Nom</label>
