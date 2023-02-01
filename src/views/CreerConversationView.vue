@@ -27,9 +27,8 @@ function validationFormulaire() {
     <div class="columns">
         <div class="column is-6 is-offset-3">
 
-            <h1 class="title">Créer une conversation</h1>
-
             <form class="box" @submit.prevent="validationFormulaire">
+            <h1 class="title has-text-centered">Créer une conversation</h1>
                 <div class="field">
                     <label class="label">Sujet de la conversation</label>
                     <input class="input" v-model="channel.topic" type="text">

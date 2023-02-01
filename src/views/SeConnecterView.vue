@@ -27,7 +27,7 @@ function validationFormulaire() {
 
             <form class="box" @submit.prevent="validationFormulaire">
 
-            <h1 class="title">SE CONNECTER</h1>
+            <h1 class="title has-text-centered">SE CONNECTER</h1>
 
                 <div class="field">
                     <label class="label">E-Mail</label>
