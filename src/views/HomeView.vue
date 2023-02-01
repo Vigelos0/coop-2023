@@ -44,7 +44,7 @@ if (session.isValid()) {
 }
 
 .box:hover {
-  background-color: #485fc7;
+  background-color:rgba(72, 95, 199, 0.7);
 }
 
 .box:hover * {
