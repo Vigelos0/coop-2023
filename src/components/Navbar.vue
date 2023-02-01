@@ -54,3 +54,8 @@ function logOut() {
         </div>
     </nav>
 </template>
+<style scoped>
+.navbar {
+    box-shadow: 0 0 5px;
+}
+</style>
